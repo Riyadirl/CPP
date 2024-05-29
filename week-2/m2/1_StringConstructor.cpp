@@ -4,18 +4,22 @@ using namespace std;
 int main()
 {
 
-    string a = "hello bangla";
+    string s = "hello bangla";
 
     // 1
-    string s("hello");
+    string s1("hello");
     //  2
-    string s("hellobangla", 5);
+    string s2("hellobangla", 5);
     // 3
-    string s(a, 4); // index 4 to last
+    string s3(s, 4); // index 4 to last
     // 4
-    string s1(26, 'a'); // 26 a
+    string s4(10, 'a'); // 26 a
 
     
-    cout << s << endl;
+    cout << s << endl;//hello bangla
+    cout << s1 << endl;//hello 
+    cout << s2 << endl;//hello
+    cout << s3 << endl;//o bangla
+    cout << s4 << endl;//aaaaaaaaaa
     return 0;
 }
